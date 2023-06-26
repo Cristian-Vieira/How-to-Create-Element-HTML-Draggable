@@ -1,5 +1,32 @@
-#backgroud{
+body{
+    font-family: sans-serif ;
+    background-color: rgba(182, 182, 182, 0.623);
+}
+#background{
     width: 100%;
     height: 100%;
+    position: fixed;
+}
+
+#mainDiv{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#conteudo{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
     
+}
+
+#header {
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 10px;
+    cursor: move;
 }
