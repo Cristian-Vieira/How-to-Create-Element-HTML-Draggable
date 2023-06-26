@@ -1,9 +1,11 @@
- // Call função main
+ // Chamando função main com elemento que queremos tornar arrastavel como parametro
  mainFunction(document.getElementById("conteudo"))
+
  // Função que vai tornar o elemento arrastavel
 function mainFunction(elemento){
     let pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
 
+     // Pegamos o header do elemento que queremos tornara arrastavel e usamos ele como base para movermos o elemento
     document.getElementById('header').onmousedown = clicar_e_arrastar
 
      // Função que sera chamada quando o usuario clicar e segurar o header
