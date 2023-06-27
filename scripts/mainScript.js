@@ -45,3 +45,9 @@ function mainFunction(elemento){
     document.onmousemove = null;
     }
 }
+
+// Open/close modal
+    document.getElementById('openBtn').onclick = () => document.getElementById('divBackground').style.display = 'block'
+    document.getElementById('closeBtn').onclick = () => document.getElementById('divBackground').style.display = 'none'
+
+   
