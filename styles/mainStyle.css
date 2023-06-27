@@ -4,6 +4,7 @@ body {
 }
 
 #divBackground {
+    display: none;
     width: 100%;
     height: 100%;
     position: fixed;
@@ -37,4 +38,10 @@ body {
     font-weight: bolder;
     background-color: rgba(175, 173, 173, 0.637);
     color: #000;
+}
+
+.close{
+    display: flex;
+    width: 100%;
+    align-content: end;
 }
