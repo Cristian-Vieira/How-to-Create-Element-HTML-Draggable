@@ -40,8 +40,21 @@ body {
     color: #000;
 }
 
-.close{
+#close{
     display: flex;
     width: 100%;
-    align-content: end;
+    justify-content: flex-end;
+    height: 30px ;
+}
+
+#closeBtn{
+
+    font-size: 30px;
+    color: red;
+    cursor:pointer;
+}
+
+#closeBtn:hover{
+color: rgb(109, 4, 4);
+
 }
